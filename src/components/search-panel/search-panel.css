@@ -1,0 +1,25 @@
+.search-panel {
+    font-size: 14px;
+}
+
+.search-panel input {
+    margin-left: 19px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 4px 4px 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 575px) {
+    .search-panel {
+        font-size: 12px;
+    }
+    
+    .search-panel input {
+        margin-left: 15px;
+        height: 25px;
+        font-size: 12px;
+    }
+    
+} 

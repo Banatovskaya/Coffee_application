@@ -1,0 +1,39 @@
+.filter {
+    display: flex;
+    font-size: 14px;
+    align-items:center;
+}
+
+.filter_buttons  {
+    width: 235px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter_buttons button {
+    height: 30px;
+    width: 75px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 4px 4px 6px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+@media (max-width: 575px) {
+    .filter {
+        font-size: 12px;
+    }
+    
+    .filter_buttons  {
+        width: 235px;
+        margin-left: 15px;
+    }
+    
+    .filter_buttons button {
+        height: 25px;
+        width: 30%;
+        font-size: 12px;
+    }
+}

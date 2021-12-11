@@ -1,0 +1,59 @@
+{
+"data": [
+{
+    "img": "components/item/coffee_item.jpg",
+    "productName": "AROMISTICO Coffee",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente?",
+    "amount": "1",
+    "country": "Kenya",
+    "price": 9.85,
+    "id": 1
+  },
+  {
+    "img": "components/item/coffee_item.jpg",
+    "productName": "Just Coffee",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente?",
+    "amount": "1",
+    "country": "Brazil",
+    "price": 4.85,
+    "id": 2
+  },
+  {
+    "img": "components/item/coffee_item.jpg",
+    "productName": "Normal Coffee",
+    "description": "sectetur adipisicing elit. Provident consequatur libero, dolores amet et consectetur adipisicing elit. Provident consequatur libero, dolores amet et consectetur adipisicing elit. Provident consequatur libero, dolores amet ", 
+    "amount": "1",
+    "country": "Columbia",
+    "price": 5.00,
+    "id": 3
+  },
+  {
+    "img": "components/item/coffee_item.jpg",
+    "productName": "Super Coffee",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente?",
+    "amount": "1",
+    "country": "Kenya",
+    "price": 9.85,
+    "id": 4
+  },
+  {
+    "img": "components/item/coffee_item.jpg",
+    "productName": "Brown Coffee",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente?",
+    "amount": "1",
+    "country": "Brazil",
+    "price": 40.85,
+    "id": 5
+  },
+  {
+    "img": "components/item/coffee_item.jpg",
+    "productName": "Dark Coffee",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente?",
+    "amount": "8",
+    "country": "Brazil",
+    "price": 40.85,
+    "id": 6
+  }
+ 
+]
+}
