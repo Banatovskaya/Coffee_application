@@ -1,0 +1,12 @@
+.best-products {
+    background: url('./paper.jpg') center center/cover no-repeat;
+    min-height: 495px;
+    padding-top: 80px;
+}
+
+@media (max-width: 767px) {
+    .best-products {
+        /* min-height: 495px; */
+        padding-top: 20px;
+    }
+}

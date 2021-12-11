@@ -40,6 +40,10 @@
     text-align: center;
 }
 
+.about_text-wrap.coffee-house {
+    padding-bottom: 100px;
+}
+
 .about_text {
     padding-top: 25px;
     font-size: 14px;
@@ -49,6 +53,12 @@
 .about_text.coffee {
     padding-left: 40px;
 
+
+}
+.about_text.coffee-house {
+    width: 590px;
+    margin: 0 auto;
+    padding-top: 40px;
 }
 
 .about_price {
@@ -80,6 +90,11 @@
         padding-top: 10px;
         font-size: 11px;
         line-height: 18px;
+    }
+
+    .about_text.coffee-house {
+        width: auto;
+        padding-top: 10px;
     }
 
     .about_img {

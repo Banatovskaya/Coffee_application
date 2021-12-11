@@ -3,9 +3,7 @@ import { Fragment } from "react";
 import HeaderForYouPleasure from "../header/header-for-you-pleasure";
 import Footer from '../footer/footer';
 import AboutForYouPleasure from '../about/about-for-you-pleasure';
-
 import ListItem from '../list-item/list-item';
-
 
 const ForYouPleasure = (props) => {
 
@@ -13,12 +11,14 @@ const ForYouPleasure = (props) => {
         <Fragment>
         <HeaderForYouPleasure/>
         <AboutForYouPleasure/>
-        <ListItem
-         data={props.data }
-         setIdItem={props.setIdItem}
+        <div className="list_items-wrap">
+            <ListItem
+            data={props.data }
+            setIdItem={props.setIdItem}
         />			
-        <Footer/>
+        </div>
         
+        <Footer/>
        </Fragment>
     )
 }

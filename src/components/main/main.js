@@ -19,48 +19,47 @@ class Main extends Component {
 		} 
 	}
 
-onSearchSelect = (itemList, dataSearchValue) => {
-	if (dataSearchValue.lenght === 0) {
-		return itemList;
-	} 
-	return itemList.filter((item) => {
-		return (item.productName.toLowerCase()).indexOf(dataSearchValue.toLowerCase()) > -1
-	})
-}
-
-setDataSearchValue = (dataSearchValue) => {
-	this.setState({dataSearchValue});
-}
-
-setDataFilterValue = (filter) => {
-	this.setState({filter});
-}
-
-onFilterSelect = (itemList, filter) => {
-	if (filter ==="") {
-		return itemList;
-	} 
-	return itemList.filter((item) => {
-		return item.country === filter
-	})
-}
-
-clearFilters = () => {
-	this.setState({filter:'',
-	dataSearchValue: ""});
-}
-
-visibleClearFilters = () => {
-	if (!!this.state.filter || !!this.state.dataSearchValue) {
-		return true
-	} else {
-		return false
+	onSearchSelect = (itemList, dataSearchValue) => {
+		if (dataSearchValue.lenght === 0) {
+			return itemList;
+		} 
+		return itemList.filter((item) => {
+			return (item.productName.toLowerCase()).indexOf(dataSearchValue.toLowerCase()) > -1
+		})
 	}
-}
+
+	setDataSearchValue = (dataSearchValue) => {
+		this.setState({dataSearchValue});
+	}
+
+	setDataFilterValue = (filter) => {
+		this.setState({filter});
+	}
+
+	onFilterSelect = (itemList, filter) => {
+		if (filter ==="") {
+			return itemList;
+		} 
+		return itemList.filter((item) => {
+			return item.country === filter
+		})
+	}
+
+	clearFilters = () => {
+		this.setState({filter:'',
+		dataSearchValue: ""});
+	}
+
+	visibleClearFilters = () => {
+		if (!!this.state.filter || !!this.state.dataSearchValue) {
+			return true
+		} else {
+			return false
+		}
+	}
 
 	render() {
-// const data = this.onSearchSelect(this.state.data, this.state.dataSearchValue);
-const data = this.onFilterSelect(this.onSearchSelect(this.props.data, this.state.dataSearchValue), this.state.filter);
+	const data = this.onFilterSelect(this.onSearchSelect(this.props.data, this.state.dataSearchValue), this.state.filter);
 		return (
 			<div >
 				<Header/>
@@ -82,13 +81,16 @@ const data = this.onFilterSelect(this.onSearchSelect(this.props.data, this.state
 						
 					</div>		
 				</div >
-				<ListItem
-				 data={data }
-				 setIdItem={this.props.setIdItem}
+				<div className="list_items-wrap">
+					<ListItem
+					data={data }
+					setIdItem={this.props.setIdItem}
 				/>			
+				</div>
+				
 				<Footer/>
 				
-   			</div>
+			</div>
 		)
 	}
 }

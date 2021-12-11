@@ -7,7 +7,8 @@
     "amount": "1",
     "country": "Kenya",
     "price": 9.85,
-    "id": 1
+    "id": 1,
+    "isBest": true
   },
   {
     "img": "components/item/coffee_item.jpg",
@@ -16,7 +17,8 @@
     "amount": "1",
     "country": "Brazil",
     "price": 4.85,
-    "id": 2
+    "id": 2,
+    "isBest": false
   },
   {
     "img": "components/item/coffee_item.jpg",
@@ -25,7 +27,8 @@
     "amount": "1",
     "country": "Columbia",
     "price": 5.00,
-    "id": 3
+    "id": 3,
+    "isBest": true
   },
   {
     "img": "components/item/coffee_item.jpg",
@@ -34,7 +37,8 @@
     "amount": "1",
     "country": "Kenya",
     "price": 9.85,
-    "id": 4
+    "id": 4,
+    "isBest": false
   },
   {
     "img": "components/item/coffee_item.jpg",
@@ -43,7 +47,8 @@
     "amount": "1",
     "country": "Brazil",
     "price": 40.85,
-    "id": 5
+    "id": 5,
+    "isBest": true
   },
   {
     "img": "components/item/coffee_item.jpg",
@@ -52,7 +57,8 @@
     "amount": "8",
     "country": "Brazil",
     "price": 40.85,
-    "id": 6
+    "id": 6,
+    "isBest": false
   }
  
 ]

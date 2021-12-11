@@ -6,14 +6,13 @@ import ForYouPleasure from '../for-you-pleasure/for-you-pleasure';
 import CoffeeHouse from '../coffee-house/coffee-house';
 import CoffeeItemPage from '../coffee-item-page/coffee-item-page';
 
-////////////////////////////////instead of backend
-import _data from '../../db.json' // instead of backend
-import _imgItem from './coffee_item.jpg'; // instead of backend
+    ////////////////////////////////instead of backend
+import _data from '../../db.json' 
+import _imgItem from './coffee_item.jpg'; 
 _data.data.forEach(item => {
 	item.img = _imgItem;
 	console.log(item.img)
-})
-//////////////////////////////////instead of backend
+})//////////////////////////////////instead of backend
 
 
 class App extends Component {
@@ -45,6 +44,7 @@ showSelectedElement = (arr, num) => {
 					/>}/>			
 					<Route path="/" element={<CoffeeHouse
 					data={this.state.data }
+					setIdItem={this.setIdItem}
 					/>}/>
 					<Route path="/pleasure"element={<ForYouPleasure
 					data={this.state.data }
