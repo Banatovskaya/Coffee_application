@@ -10,7 +10,6 @@ const HeaderCoffeeHouse = () => {
                 <div className='header_links-wrap'>
                     <LinksLight/>
                 </div>
-               
                 <div className="header_title coffee-house">
                     Everything You Love About Coffee
                 </div>
@@ -19,7 +18,7 @@ const HeaderCoffeeHouse = () => {
                     <div className='header_subtitle-coffee-house'>We makes every day full of energy and taste</div>
                     <div className='header_subtitle-coffee-house'>Want to try our beans?</div>
                 </div>
-                 <Link to="/ourcoffee" > 
+                <Link to="/ourcoffee" > 
                 <button className='header_button'>More</button>
                 </Link>
             </div>

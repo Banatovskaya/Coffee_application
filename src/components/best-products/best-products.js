@@ -9,7 +9,6 @@ const BestProducts = (props) => {
             {props.children}
         </div>
     )
-
 }
 
 export default BestProducts

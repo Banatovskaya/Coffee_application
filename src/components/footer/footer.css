@@ -15,9 +15,11 @@ footer {
 }
 
 @media (max-width: 575px) {
+
     .footer_line-beans {
         display: none;
     }
+    
     footer {
         min-height: 0;
         padding-bottom: 20px;

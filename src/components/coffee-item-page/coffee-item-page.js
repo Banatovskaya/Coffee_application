@@ -1,4 +1,3 @@
-
 import { Component, Fragment } from 'react';
 import './coffee-item-page.css'
 import Header from '../header/header';

@@ -1,5 +1,4 @@
 import { Component } from 'react';
-
 import Header from '../header/header';
 import Footer from '../footer/footer';
 import './main.css';
@@ -8,7 +7,6 @@ import Filter from '../filter/filter';
 import SearchPanel from '../search-panel/search-panel';
 import ListItem from '../list-item/list-item';
 import ClearFilters from '../clear-filters/clear-filters';
-
 
 class Main extends Component {
 	constructor(props) {
@@ -78,7 +76,6 @@ class Main extends Component {
 							<div className="searchPanel_padding">
 								<Filter setDataFilterValue={this.setDataFilterValue} />
 							</div>
-						
 					</div>		
 				</div >
 				<div className="list_items-wrap">
@@ -87,13 +84,10 @@ class Main extends Component {
 					setIdItem={this.props.setIdItem}
 				/>			
 				</div>
-				
 				<Footer/>
-				
 			</div>
 		)
 	}
 }
-
 
 export default Main;

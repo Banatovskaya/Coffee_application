@@ -11,9 +11,7 @@ import _data from '../../db.json'
 import _imgItem from './coffee_item.jpg'; 
 _data.data.forEach(item => {
 	item.img = _imgItem;
-	console.log(item.img)
 })//////////////////////////////////instead of backend
-
 
 class App extends Component {
 	constructor(props) {
@@ -24,17 +22,16 @@ class App extends Component {
 		} 
 	}
 
-setIdItem = (id) => {
-	this.setState({IdCoffeeItemPage: id})
-}
+	setIdItem = (id) => {
+		this.setState({IdCoffeeItemPage: id})
+	}
 
-showSelectedElement = (arr, num) => {
-	return (arr.find(({id}) => id === num));
-}
+	showSelectedElement = (arr, num) => {
+		return (arr.find(({id}) => id === num));
+	}
 
 	render() {
 		const itemData = this.showSelectedElement(this.state.data, this.state.IdCoffeeItemPage)
-		
 		return (
 			<Router>	
 				<Routes>

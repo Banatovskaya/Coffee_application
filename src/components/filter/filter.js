@@ -27,7 +27,6 @@ const Filter = (props) => {
             Or filter
             <div className="filter_buttons">
                 {buttons}
-                
             </div>
         </div>
     )

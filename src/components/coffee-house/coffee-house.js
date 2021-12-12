@@ -5,16 +5,14 @@ import ListItem from '../list-item/list-item';
 import Footer from '../footer/footer';
 
 const CoffeeHouse = ({data, setIdItem}) => {
-
+    
     const dataBestProduct = (data) => {
         return data.filter((item) => {
-            console.log(item)
 			return (item.isBest)
 		})
     }
 
     return (
-        
         <div >
             <HeaderCoffeeHouse/>
             <AboutCoffeeHouse/>

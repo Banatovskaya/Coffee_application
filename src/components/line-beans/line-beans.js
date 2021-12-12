@@ -10,4 +10,5 @@ const LineBeans = () => {
         </div>
     )
 }
+
 export default LineBeans

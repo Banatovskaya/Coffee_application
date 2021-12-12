@@ -1,4 +1,3 @@
-// import './ks.css'
 import { Fragment } from "react";
 import HeaderForYouPleasure from "../header/header-for-you-pleasure";
 import Footer from '../footer/footer';
@@ -17,7 +16,6 @@ const ForYouPleasure = (props) => {
             setIdItem={props.setIdItem}
         />			
         </div>
-        
         <Footer/>
        </Fragment>
     )
