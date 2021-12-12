@@ -19,21 +19,13 @@ class CoffeeItemPage extends Component {
 		if (itemData){
 			localStorage.setItem('itemData', JSON.stringify(itemData))
 		} else localStorage.setItem('itemData', JSON.stringify(this.state.itemData))
-		
 	}
 	
 	componentDidMount () {
 		this.sendToLocalStorage()
-
-
 	}
-	
 
 	render() {
-
-		console.log("props", this.props)
-		console.log("state",this.state)
-
 		return (
 			<Fragment >
 				<Header/>

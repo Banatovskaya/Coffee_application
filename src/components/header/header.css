@@ -1,14 +1,17 @@
 .header {
     min-height: 260px;
     background: url('./coffee-shop-1209863_1920.jpg') center center/cover no-repeat;
+    padding-top: 30px;
 }
 
 .headerForYouPleasure{
+    padding-top: 30px;
     /* min-height: 260px; */
     background: url('./forYouPleasure.jpg') center center/cover no-repeat;
 }
 
 .headerCoffeeHouse{
+    padding-top: 30px;
     min-height: 640px;
     background: url('./header-coffee-house.jpg') center center/cover no-repeat;
 }
@@ -70,6 +73,10 @@
 }
 
 @media (max-width: 767px) {
+    header {
+        padding-top: 10px;
+    }
+
     .header_title { 
         padding: 30px 0 30px 0 ;
         font-weight: 700;
@@ -77,6 +84,7 @@
     }
     
     .header_links-wrap {
+        /* padding-top: 10px; */
         display: flex; 
         justify-content: space-around; 
     }

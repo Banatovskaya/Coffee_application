@@ -8,8 +8,8 @@
 
 .links_light-wrap, .links_dark-wrap   {
     position: relative;
-    width: 355px;
-    height: 70px;
+    /* width: 355px; */
+    /* height: 70px; */
     display: flex;
     align-items: end;
 }
@@ -35,9 +35,9 @@
 }
 
 @media (max-width: 991px) {
-    .links_light-wrap {
-        height: 50px;
-    }
+    
+
+   
 }
 
 @media (max-width: 380px) {

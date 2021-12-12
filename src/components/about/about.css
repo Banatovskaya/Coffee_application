@@ -9,7 +9,10 @@
    
 }
 .about_img.coffee {
+    padding-left: 0px;
     width: 392px;
+    /* height: 100%; */
+    background-color: black;
    
 }
 
@@ -18,7 +21,8 @@
 }
 
 .about_img.coffee img {
-    width: auto;
+    object-fit: fill;
+   
 }
 
 .about_text-wrap {
@@ -76,7 +80,7 @@
 
 @media (max-width: 991px) {
     .about_img.coffee {
-       margin-top: 40px;
+       /* margin-top: 40px; */
        
     }
     
@@ -86,6 +90,11 @@
 }
 
 @media (max-width: 767px) {
+
+    .about {
+        padding-top: 20px;
+    }
+
     .about_text {
         padding-top: 10px;
         font-size: 11px;

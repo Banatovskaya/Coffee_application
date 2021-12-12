@@ -6,7 +6,7 @@ const Links= () => {
 
     const changeActive = (isActive)=>{
         if (isActive) {
-            return {fontSize: '14px', fontWeight: 'bold', textDecoration: 'underline'}
+            return {fontSize: '12px', fontWeight: 'bold', textDecoration: 'underline'}
             } 
     }
 
