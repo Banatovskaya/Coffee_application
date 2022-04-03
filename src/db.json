@@ -1,7 +1,7 @@
 {
 "data": [
 {
-    "img": "components/item/coffee_item.jpg",
+    "img": "coffee_item.jpg",
     "productName": "AROMISTICO Coffee",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquamLorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numqu Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente?",
     "amount": "1",
@@ -11,7 +11,7 @@
     "isBest": true
   },
   {
-    "img": "components/item/coffee_item.jpg",
+    "img": "coffee_item.jpg",
     "productName": "Just Coffee",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente?",
     "amount": "1",
@@ -21,7 +21,7 @@
     "isBest": false
   },
   {
-    "img": "components/item/coffee_item.jpg",
+    "img": "coffee_item.jpg",
     "productName": "Normal Coffee",
     "description": "sectetur adipisicing elit. Provident consequatur libero, dolores amet et consectetur adipisicing elit. Provident consequatur libero, dolores amet et consectetur adipisicing elit. Provident consequatur libero, dolores amet ", 
     "amount": "1",
@@ -31,7 +31,7 @@
     "isBest": true
   },
   {
-    "img": "components/item/coffee_item.jpg",
+    "img": "coffee_item.jpg",
     "productName": "Super Coffee",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente?",
     "amount": "1",
@@ -41,7 +41,7 @@
     "isBest": false
   },
   {
-    "img": "components/item/coffee_item.jpg",
+    "img": "coffee_item.jpg",
     "productName": "Brown Coffee",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente?",
     "amount": "1",
@@ -51,7 +51,7 @@
     "isBest": true
   },
   {
-    "img": "components/item/coffee_item.jpg",
+    "img": "coffee_item.jpg",
     "productName": "Dark Coffee",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur libero, dolores amet ea corrupti numquam? Ratione, doloribus provident sint laudantium modi suscipit. Sunt, unde vel nobis harum dolores sapiente?",
     "amount": "8",

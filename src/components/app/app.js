@@ -8,10 +8,7 @@ import CoffeeItemPage from '../coffee-item-page/coffee-item-page';
 
     ////////////////////////////////instead of backend
 import _data from '../../db.json' 
-import _imgItem from './coffee_item.jpg'; 
-_data.data.forEach(item => {
-	item.img = _imgItem;
-})//////////////////////////////////instead of backend
+//////////////////////////////////instead of backend
 
 class App extends Component {
 	constructor(props) {

@@ -7,7 +7,7 @@ const AboutCoffeeItemPage = ({data}) => {
         <section className="about-coffee">
             <div className="container" >
                 <div className="about-coffee_img">
-                    <img src={img} alt="coffee-фото"  />
+                    <img src={`../${img}`} alt="coffee-фото"  />
                 </div>
                 <div className="about-coffee_text-wrap">
                     <h1>About it</h1>
