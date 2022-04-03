@@ -9,7 +9,7 @@ const ItemCoffee = ({id, img, productName, amount, country, price, setIdItem}) =
         >
             <Link to="/item" >
                 <div className="item_img">
-                    <img src={img} alt="coffee foto" />
+                    <img src={`../${img}`} alt="coffee foto" />
                 </div>
                 <div className='item_name'>
                     <div>{productName}</div>
